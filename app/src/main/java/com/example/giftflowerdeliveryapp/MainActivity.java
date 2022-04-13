@@ -19,6 +19,7 @@ import java.util.List;
 
 // --------------------------------------------------------------------
 // Assignment 2
+// Winter 2022
 // --------------------------------------------------------------------
 
 public class MainActivity extends AppCompatActivity {

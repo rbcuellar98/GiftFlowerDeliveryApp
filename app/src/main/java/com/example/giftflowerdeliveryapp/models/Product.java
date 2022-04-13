@@ -2,6 +2,7 @@ package com.example.giftflowerdeliveryapp.models;
 
 /**
  * This class models any product to be sold
+ * Class holding product definitions
  */
 public abstract class Product {
     private long id;

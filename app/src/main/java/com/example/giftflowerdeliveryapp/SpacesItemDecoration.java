@@ -11,12 +11,13 @@ import androidx.recyclerview.widget.RecyclerView;
  */
 public class SpacesItemDecoration extends RecyclerView.ItemDecoration {
     private final int space;
-
+    // item spacing on recyclerView
     public SpacesItemDecoration(int space) {
         this.space = space;
     }
 
     @Override
+    // item position on the screen
     public void getItemOffsets(Rect outRect, @NonNull View view,
                                RecyclerView parent, @NonNull RecyclerView.State state) {
         outRect.left = space;

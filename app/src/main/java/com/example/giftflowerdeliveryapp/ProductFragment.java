@@ -41,7 +41,6 @@ public class ProductFragment extends Fragment {
 
     // TODO: Rename and change types of parameters
     private String theType;
-
     private ShoppingCartSingleton cart;
     private SQLiteDatabase db;
     private SwipeRefreshLayout mySwipeRefreshLayout;

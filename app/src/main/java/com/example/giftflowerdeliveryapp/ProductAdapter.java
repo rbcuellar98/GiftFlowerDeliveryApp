@@ -108,7 +108,7 @@ class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.MyViewHolder> {
                 mOnItemClickListener.onItemClick(view, products.get(position), position);
             }
         });
-
+        // if the user add a product to their favorite than the color of the heart will change
         holder.favorite.setImageResource(product.getFavorite() > 0 ? R.drawable.ic_baseline_favorite_24 : R.drawable.ic_baseline_favorite_border_24);
         holder.favorite.setOnClickListener(new View.OnClickListener() {
             @Override

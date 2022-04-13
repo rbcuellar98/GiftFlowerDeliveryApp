@@ -11,6 +11,12 @@
         <entry key="..\:/Android/GiftFlowerDeliveryApp/app/src/main/res/layout/item_product.xml" value="0.22826086956521738" />
         <entry key="..\:/Android/GiftFlowerDeliveryApp/app/src/main/res/menu/main_menu.xml" value="0.1" />
         <entry key="..\:/Android/GiftFlowerDeliveryApp/app/src/main/res/menu/menu_product_more.xml" value="0.18541666666666667" />
+        <entry key="app/src/main/res/layout/activity_checkout.xml" value="0.20425724637681159" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2658514492753623" />
+        <entry key="app/src/main/res/layout/activity_order_details.xml" value="0.2658514492753623" />
+        <entry key="app/src/main/res/layout/fragment_product.xml" value="0.2658514492753623" />
+        <entry key="app/src/main/res/layout/item_cart.xml" value="0.2658514492753623" />
+        <entry key="app/src/main/res/layout/item_product.xml" value="0.2658514492753623" />
       </map>
     </option>
   </component>

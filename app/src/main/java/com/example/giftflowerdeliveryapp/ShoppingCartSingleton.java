@@ -35,7 +35,7 @@ class ShoppingCartSingleton {
     public void removeFromCart(Product product) {
         items.remove(product);
     }
-
+    //Receive items from the list
     public List<Product> getItems() {
         return items;
     }

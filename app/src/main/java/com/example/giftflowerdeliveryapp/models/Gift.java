@@ -2,6 +2,7 @@ package com.example.giftflowerdeliveryapp.models;
 
 /**
  * This class models a gift product
+ * With its properties
  */
 public class Gift extends Product {
     public Gift(long id, int image, String title, float price, int favorite) {

@@ -49,7 +49,13 @@ public class DbHelper extends SQLiteOpenHelper {
         List<Product> products = Util.getProducts();
         for (Product product :
                 products) {
-            db.execSQL("INSERT INTO " + DeliveryContract.ProductEntry.PRODUCT_TABLE_NAME + "(" + DeliveryContract.ProductEntry.COLUMN_NAME_TITLE + ", " + DeliveryContract.ProductEntry.COLUMN_NAME_IMAGE + ", " + DeliveryContract.ProductEntry.COLUMN_NAME_PRICE + ", " + DeliveryContract.ProductEntry.COLUMN_NAME_TYPE + ") VALUES ('" + product.getTitle() + "', " + product.getImage() + "," + product.getPrice() + ",'" + product.getClass().getName() + "')");
+            db.execSQL("INSERT INTO " + DeliveryContract.ProductEntry.PRODUCT_TABLE_NAME +
+                    "(" + DeliveryContract.ProductEntry.COLUMN_NAME_TITLE + ", " +
+                    DeliveryContract.ProductEntry.COLUMN_NAME_IMAGE + ", " +
+                    DeliveryContract.ProductEntry.COLUMN_NAME_PRICE + ", " +
+                    DeliveryContract.ProductEntry.COLUMN_NAME_TYPE + ") " +
+                    "VALUES ('" + product.getTitle() + "', " + product.getImage()
+                    + "," + product.getPrice() + ",'" + product.getClass().getName() + "')");
         }
     }
 

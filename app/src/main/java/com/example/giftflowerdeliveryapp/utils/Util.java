@@ -11,6 +11,7 @@ import java.util.List;
 
 /**
  * This contains util methods
+ * Holding values for each item on the app
  */
 public class Util {
     public static List<Product> getProducts() {

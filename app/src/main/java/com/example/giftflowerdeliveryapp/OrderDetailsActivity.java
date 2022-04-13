@@ -45,11 +45,11 @@ public class OrderDetailsActivity extends AppCompatActivity {
 
     private void displayItems() {
         List<Product> products = cart.getItems();
-        if (products.size() == 0) {
-            cartEmpty.setVisibility(View.VISIBLE);
-            proceedButton.setEnabled(false);
+        if (products.size() == 0) { // size of the cart
+            cartEmpty.setVisibility(View.VISIBLE); // cart being empty
+            proceedButton.setEnabled(false); // for empty cart
         }
-        for (Product current :
+        for (Product current : // iterate each product
                 products) {
             totalAmount += current.getPrice();
         }
@@ -64,6 +64,7 @@ public class OrderDetailsActivity extends AppCompatActivity {
                 cart.removeFromCart(product);
             }
         });
+        // UI implementation of structured grid
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setHasFixedSize(true);
         recyclerView.setNestedScrollingEnabled(false);

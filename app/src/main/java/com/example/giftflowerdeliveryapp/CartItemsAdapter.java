@@ -66,6 +66,7 @@ class CartItemsAdapter extends RecyclerView.Adapter<CartItemsAdapter.MyViewHolde
 
 
     @Override
+    // amount of item available in the recycler view and return them
     public int getItemCount() {
         return products.size();
     }

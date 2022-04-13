@@ -34,6 +34,7 @@ public class CheckoutActivity extends AppCompatActivity {
         timeRemaining = findViewById(R.id.timeRemaining);
         Intent returnIntent = new Intent(getApplicationContext(),
                 MainActivity.class);
+        // check for user picking how they would like to receive the order
         if (pickupRadio.isChecked()) {
             Snackbar.make(layoutView, "Your order is ready for pickup", Snackbar.LENGTH_SHORT).show();
             ShoppingCartSingleton.getInstance().clearItems();
@@ -43,13 +44,13 @@ public class CheckoutActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
                     view.setEnabled(false);
-                    //start a timer
+                    //start a timer to 60s
                     new CountDownTimer(TIMER_MINUTES * 60 * 1000, 1000) {
-
+                            // notify the user of their delivery status
                         public void onTick(long millisUntilFinished) {
                             timeRemaining.setText("Your delivery is own its way: " + millisUntilFinished / 1000 + " seconds");
                         }
-
+                            // notify user of delivery status
                         public void onFinish() {
                             Snackbar.make(layoutView, "Your order has been delivered", Snackbar.LENGTH_SHORT).show();
                             ShoppingCartSingleton.getInstance().clearItems();

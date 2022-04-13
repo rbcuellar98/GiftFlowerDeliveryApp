@@ -153,7 +153,7 @@ class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.MyViewHolder> {
                 selection,
                 selectionArgs);
     }
-
+    // Added button to expand UI for users to be able to see a popup menu
     private void onMoreButtonClick(final View view, final Product p) {
         PopupMenu popupMenu = new PopupMenu(context, view);
         popupMenu.setOnMenuItemClickListener(item -> {

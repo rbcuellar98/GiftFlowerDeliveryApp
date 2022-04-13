@@ -118,7 +118,7 @@ public class ProductFragment extends Fragment {
                 startActivity(shareIntent);
             }
         });
-        // Refresh Screen
+        // Refresh Screen for the app
         mySwipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
@@ -144,6 +144,7 @@ public class ProductFragment extends Fragment {
             selection = DeliveryContract.ProductEntry.COLUMN_NAME_FAVORITE + " = ?";
             selectionArgs = new String[]{String.valueOf(1)};
         }
+        // Use of string array
         String[] projection = {
                 BaseColumns._ID,
                 DeliveryContract.ProductEntry.COLUMN_NAME_TITLE,

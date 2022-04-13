@@ -94,7 +94,7 @@ public class ProductFragment extends Fragment {
         recyclerView.addItemDecoration(new SpacesItemDecoration(5));
         recyclerView.setHasFixedSize(true);
         recyclerView.setNestedScrollingEnabled(false);
-
+        // get the products
         List<Product> items = getProducts();
 
         //set data and list adapter
@@ -118,6 +118,7 @@ public class ProductFragment extends Fragment {
                 startActivity(shareIntent);
             }
         });
+
         mySwipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {

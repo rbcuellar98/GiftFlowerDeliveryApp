@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_view"
+    android:padding="@dimen/spacing_medium"
+    android:orientation="vertical"
+    tools:context=".CheckoutActivity">
+
+    <RadioGroup
+        android:id="@+id/deliveredOrPickup"
+        android:checkedButton="@+id/radio_button_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <RadioButton
+        android:id="@+id/radio_button_delivered"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/delivered"/>
+    <RadioButton
+        android:id="@+id/radio_button_pick_up"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/pick_up"/>
+    </RadioGroup>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_medium"
+        android:padding="@dimen/spacing_middle"
+        android:text="@string/order"
+        />
+    <TextView
+        android:id="@+id/timeRemaining"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_middle"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="@dimen/spacing_small"
+        />
+
+</LinearLayout>

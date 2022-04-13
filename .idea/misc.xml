@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/GiftFlowerDeliveryApp/app/src/main/res/layout/activity_checkout.xml" value="0.11302083333333333" />
+        <entry key="..\:/Android/GiftFlowerDeliveryApp/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Android/GiftFlowerDeliveryApp/app/src/main/res/layout/activity_order_details.xml" value="0.1109375" />
+        <entry key="..\:/Android/GiftFlowerDeliveryApp/app/src/main/res/layout/fragment_product.xml" value="0.16822916666666668" />
+        <entry key="..\:/Android/GiftFlowerDeliveryApp/app/src/main/res/layout/item_cart.xml" value="0.2" />
+        <entry key="..\:/Android/GiftFlowerDeliveryApp/app/src/main/res/layout/item_product.xml" value="0.22826086956521738" />
+        <entry key="..\:/Android/GiftFlowerDeliveryApp/app/src/main/res/menu/main_menu.xml" value="0.1" />
+        <entry key="..\:/Android/GiftFlowerDeliveryApp/app/src/main/res/menu/menu_product_more.xml" value="0.18541666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

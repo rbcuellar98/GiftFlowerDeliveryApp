@@ -118,7 +118,7 @@ public class ProductFragment extends Fragment {
                 startActivity(shareIntent);
             }
         });
-
+        // Refresh Screen
         mySwipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {

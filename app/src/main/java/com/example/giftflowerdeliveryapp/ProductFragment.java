@@ -159,6 +159,7 @@ public class ProductFragment extends Fragment {
                 DeliveryContract.ProductEntry.COLUMN_NAME_PRICE,
                 DeliveryContract.ProductEntry.COLUMN_NAME_FAVORITE,
         };
+        // store all return query
         Cursor cursor = db.query(
                 DeliveryContract.ProductEntry.PRODUCT_TABLE_NAME,   // The table to query
                 projection,             // The array of columns to return (pass null to get all)

@@ -104,6 +104,7 @@ class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.MyViewHolder> {
 
     @SuppressLint("UseCompatLoadingForDrawables")
     @Override
+    // loop through the list of items
     public void onBindViewHolder(@NonNull MyViewHolder holder, @SuppressLint("RecyclerView") int position) {
 
         final Product product = products.get(position);

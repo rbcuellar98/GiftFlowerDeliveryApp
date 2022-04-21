@@ -94,7 +94,7 @@
                     android:layout_height="wrap_content"
                     android:clickable="false"
                     android:numStars="5"
-                    android:rating="3.5"
+                    android:rating="3"
                     android:stepSize="1"
                     android:theme="@style/RatingBar" />
 

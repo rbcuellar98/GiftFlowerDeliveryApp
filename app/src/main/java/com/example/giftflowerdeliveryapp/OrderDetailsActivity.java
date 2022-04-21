@@ -15,6 +15,13 @@ import com.google.android.material.button.MaterialButton;
 
 import java.util.List;
 
+// --------------------------------------------------------------------
+// Assignment 2
+// Rolando Banasco Cuellar 1790333
+// Application Development 2 (Mobile)
+// Winter 2022
+// --------------------------------------------------------------------
+
 public class OrderDetailsActivity extends AppCompatActivity {
 
     private ShoppingCartSingleton cart;

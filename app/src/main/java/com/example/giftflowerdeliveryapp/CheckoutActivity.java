@@ -12,6 +12,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.snackbar.Snackbar;
 
+// --------------------------------------------------------------------
+// Assignment 2
+// Rolando Banasco Cuellar 1790333
+// Application Development 2 (Mobile)
+// Winter 2022
+// --------------------------------------------------------------------
+
 /**
  * activity for checkout
  */

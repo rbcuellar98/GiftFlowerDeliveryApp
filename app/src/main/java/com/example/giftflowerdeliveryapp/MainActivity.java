@@ -19,6 +19,8 @@ import java.util.List;
 
 // --------------------------------------------------------------------
 // Assignment 2
+// Rolando Banasco Cuellar 1790333
+// Application Development 2 (Mobile)
 // Winter 2022
 // --------------------------------------------------------------------
 
@@ -37,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
         parentView = findViewById(R.id.parent_view);
         initComponent();
     }
+    // initialize all  components
     private void initComponent() {
         viewPager = findViewById(R.id.view_pager);
         setupViewPager(viewPager);
@@ -52,7 +55,9 @@ public class MainActivity extends AppCompatActivity {
         adapter.addFragment(ProductFragment.newInstance("favorites"), "Favorites");
         viewPager.setAdapter(adapter);
     }
-
+    /*
+    * add another menu to the UI
+    * */
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
          getMenuInflater().inflate(R.menu.main_menu, menu);
@@ -70,6 +75,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * Inner class which is an adapter for the fragments view pager
+     * Generate fragments in tab
      */
     private class SectionsPagerAdapter extends FragmentPagerAdapter {
 

@@ -16,6 +16,13 @@ import com.example.giftflowerdeliveryapp.models.Product;
 
 import java.util.List;
 
+// --------------------------------------------------------------------
+// Assignment 2
+// Rolando Banasco Cuellar 1790333
+// Application Development 2 (Mobile)
+// Winter 2022
+// --------------------------------------------------------------------
+
 
 /**
  * Adapter for the recyclerview of displaying items in the cart

@@ -28,6 +28,13 @@ import com.google.android.material.snackbar.Snackbar;
 import java.util.ArrayList;
 import java.util.List;
 
+// --------------------------------------------------------------------
+// Assignment 2
+// Rolando Banasco Cuellar 1790333
+// Application Development 2 (Mobile)
+// Winter 2022
+// --------------------------------------------------------------------
+
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link ProductFragment#newInstance} factory method to

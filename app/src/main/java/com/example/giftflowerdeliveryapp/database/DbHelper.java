@@ -46,6 +46,7 @@ public class DbHelper extends SQLiteOpenHelper {
      */
     public void onCreate(SQLiteDatabase db) {
         db.execSQL(SQL_CREATE_ENTRIES);
+        // get the products inside the table
         List<Product> products = Util.getProducts();
         for (Product product :
                 products) {

@@ -6,6 +6,13 @@ import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+// --------------------------------------------------------------------
+// Assignment 2
+// Rolando Banasco Cuellar 1790333
+// Application Development 2 (Mobile)
+// Winter 2022
+// --------------------------------------------------------------------
+
 /**
  * This class adds decoration to the recyclerview grid
  */
